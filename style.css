@@ -1,8 +1,15 @@
-.red, #test {color:red;
-font-weight:bold}
-.yellow{color:yellow;}
-.wheat {color:wheat;
+.red {color:red;
+font-weight:bold;
+font-size: 48px;
+line-height: 47px;
+letter-spacing: 0em;
+font-weight: 600;
+font-style: normal;
 text-align:center;
+margin-top:350px}
+.wheat {color:burlywood;
+    font-size: 70px;
+text-align:center
 }
-.background {background:url(images/Moroz.png) no-repeat 30px 20px;
-     } 
+.background {background:url(images/Moroz.png) no-repeat;
+    background-size: cover } 
