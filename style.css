@@ -1,22 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    }
+
 .p1 {color:wheat;
+    margin-top: 20px;
     font-family: 'Ruslan Display', cursive;
-    font-size: 50рх;
-text-align:center;
+    font-size: 50px;
+    text-align:right;
+    text-shadow: 2px 2px 0 black, 0 0 10px red;
+     
 }
 .p2 {color:red;
     font-family: 'Lobster', cursive;
     font-size: 48px;
-    text-align:center;
+    float:left;
     position: absolute;
-    bottom: 15px;
+    bottom: 0;
+    text-shadow: 1px 1px 0 blue, 2px 2px 0 blue, 3px 3px 0 #cad5e2, 
+    4px 4px 0 #cad6e2, 5px 5px 0 #cad5e2;    
 }
 
-html {background:url(images/Moroz.png)no-repeat center center;
+.img1 {text-align:left;}
+.img2 {text-align: right}
+
+    /*div:first-letter { /* Первая буква абзаца */
+        font-size: 2em;
+        text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                     red -1px 1px 0, red 1px -1px 0 */
+}
+
+/*html {background:url(images/DMoroz1.png)no-repeat center center;
     min-height:100%;
     background-size:cover;
-     } 
+    
+     } */
     
     
