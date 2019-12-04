@@ -1,48 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
-/* * {
+
+@import url('https://fonts.googleapis.com/css?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+
+ * {
     margin: 0;
     padding: 0;
-    }*/
+    }
 
-body{ 
-     background :#E0FFFF
-     }
+    html {background:url(images/podarok.png) no-repeat center center;
+        min-height:100%;
+       background-size:cover;
+       }
+     
+
 
 .p1 {color:wheat;
-    font-family: 'Ruslan Display', cursive;
+    font-family: 'Old Standard TT', serif;
     font-size: 3em;
     line-height: 1;
     text-align:right;
-    margin:20px;
-    text-shadow: 2px 2px 0 black, 0 0 10px red;
-    /*margin-top: 20px;
-    margin-left: 15%;
-    
-    width: 80% */ 
-     
+    margin:20px 40px;
+    text-shadow: 2px 2px 0 black, 3px 3px 5px red
 }
-.p2 {color:#FF0000;
-    font-family: 'Gabriela', serif;
-    font-size: 2em;
+.p2 {
+    text-align: center;
+    color:#ffffff;
+    font-family:  'Marck Script', cursive;
+    font-size: 3em;
     line-height: 1;
     font-weight: bold;
-    text-shadow: 1px 1px 2px black, 2px 2px 3px black, 3px 3px 4px gold,
-    4px 4px 0 #cad6e2, 5px 5px 0 #cad5e2; 
-    /*float:left;*/
-    /*position: absolute;*/
-    /*margin-bottom: 5px;*/
-}
+    margin:0px 40px;
+    text-shadow: 2px 2px 3px black, 3px 3px 4px black, 4px 4px 5px gold,
+    5px 5px 0 #cad6e2, 6px 6px 0 #cad5e2 }
 
-/*.img1 {text-align:left;
-    border-radius:50%
-}*/
-
-/*.img2 {border-radius: 40px;
-    
-    text-align:right;
-} 
-/* html{background:url(images/Moroz.png) no-repeat center center;
-    min-height:100%;
-   background-size:cover;
-   }*/
+ nav {color:#2F4F4F;
+    font-family: 'Marck Script', cursive;  
+    font-size: 2em;
+    margin: 20px 150px;
+    padding: 25px;
+    background-color: #bfb6c1;
+    /*border: 2px solid #808080;*/
+    text-decoration: underline;
+    width: 250px;
+    text-align: center;
+    border-radius: 70px; 
+    font-weight: bold;
+ }
