@@ -49,6 +49,10 @@
     /*border-radius: 70px; */
     font-weight: bold;
     text-shadow: 1px 1px 2px #000000,  2px 2px 3px #000000, 
-    3px 3px 0 #000000, 4px 4px 0 #cad5e2
+    3px 3px 0 #FFFAFA, 4px 4px 0 #cad5e2
  }
-a {color:#FA8072}
+a {color:wheat}
+
+a:hover {
+    /*background: #cad5e2; /* Цвет фона под ссылкой */ 
+    color: #FF0000; /* Цвет ссылки */ 
