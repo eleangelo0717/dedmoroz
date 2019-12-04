@@ -22,29 +22,29 @@
     font-size: 3em;
     line-height: 1;
     text-align:right;
-    margin:20px 40px;
+    margin:40px;
     text-shadow: 2px 2px 0 black, 3px 3px 5px red
 }
 .p2 {
     text-align: center;
     color:#ffffff;
     font-family:  'Marck Script', cursive;
-    font-size: 3em;
+    font-size: 3.2em;
     line-height: 1;
     font-weight: bold;
-    margin:0px 40px;
+    margin:20px 40px;
     text-shadow: 2px 2px 3px black, 3px 3px 4px black, 4px 4px 5px gold,
     5px 5px 0 #cad6e2, 6px 6px 0 #cad5e2 }
 
  nav {color:#2F4F4F;
     font-family: 'Marck Script', cursive;  
-    font-size: 2em;
-    margin: 20px 150px;
+    font-size: 2.2em;
+    margin: 50px 140px;
     padding: 25px;
     background-color: #bfb6c1;
     /*border: 2px solid #808080;*/
     text-decoration: underline;
-    width: 250px;
+    width: 300px;
     text-align: center;
     border-radius: 70px; 
     font-weight: bold;
