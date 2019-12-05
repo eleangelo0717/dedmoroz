@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Ruslan+Display&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Underdog&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Philosopher&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
 
  * {
@@ -14,8 +10,6 @@
         min-height:100%;
        background-size:cover;
        }
-     
-
 
 .p1 {color:wheat;
     font-family: 'Old Standard TT', serif;
@@ -23,7 +17,7 @@
     line-height: 1;
     text-align:right;
     margin:40px;
-    text-shadow: 2px 2px 0 black, 3px 3px 5px red
+    text-shadow: 2px 2px 0 black, 3px 3px 4px red
 }
 .p2 {
     text-align: center;
@@ -41,18 +35,16 @@
     font-size: 2.3em;
     margin: 50px 140px;
     padding: 25px;
-    /*background-color: #FFE4B5;*/
-    /*border: 2px solid #808080;*/
     text-decoration: underline;
     width: 300px;
     text-align: center;
-    /*border-radius: 70px; */
     font-weight: bold;
     text-shadow: 1px 1px 2px #000000,  2px 2px 3px #000000, 
     3px 3px 0 #000000, 4px 4px 0 #cad5e2
  }
-a {color:#ffffff}
-
+a {color:#ffffff;
+    transition: 1s linear
+}
 a:hover {
-
-    color: #FF0000; /* Цвет ссылки */ }
+    color: #FF0000
+ }
