@@ -8,7 +8,7 @@ let dayPlace = document.getElementById("day_place")
 function daysdoNY() {
    year = '2020'
    month = '01'
-   day = '11'
+   day = '01'
    todayData = new Date()
    nextDate = new Date([year, month, day].join(','))
    msPerDay = 24 * 60 * 60 * 1000
@@ -36,23 +36,3 @@ if (n > 1 && n < 5 && !ickl) {
 }
 
 
-/*let a = nextDate1
- switch (a) {
-    case 21:
-     console.log(nextDate1 ')
-     dayDay.innerHTML='день'
-     dayPlace.innerHTML = 'остался'
-     break
-     case 22:
-     console.log(nextDate1 )
-     dayDay.innerHTML='дня'
-     break
-     case 25:
-     console.log(nextDate1)
-     dayDay.innerHTML='дней'
-     break
-  default:
-  console.log(nextDate1)
-  dayDay.innerHTML='/////'
-
- }*/
