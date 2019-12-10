@@ -4,7 +4,7 @@ day = 34
 let dayNum = document.getElementById("day_num")
 let dayDay = document.getElementById("day_day")
 let dayPlace = document.getElementById("day_place")
-/*alert('Javascript подключен')*/
+alert('Javascript подключен')
 
 
 function daysdoNY () {
