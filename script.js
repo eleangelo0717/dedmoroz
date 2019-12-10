@@ -1,9 +1,10 @@
 
 day = 34
 
-let dayPlace = document.getElementById("day_place")
+let dayNum = document.getElementById("day_num")
 let dayDay = document.getElementById("day_day")
-alert('Javascript подключен')
+let dayPlace = document.getElementById("day_place")
+/*alert('Javascript подключен')*/
 
 
 function daysdoNY () {
@@ -19,9 +20,30 @@ function daysdoNY () {
    return nextDate1
 }
 
-   dayPlace.innerHTML=daysdoNY()
+   dayNum.innerHTML=daysdoNY()
 
- if (nextDate1=21){
+ /*if (nextDate1=21){
    dayDay.innerHTML='день'
     console.log('день')
- }
+ }*/
+ 
+ let a = nextDate1
+  switch (a) {
+     case 21:
+      console.log(nextDate1) 
+      dayDay.innerHTML='день'
+      dayPlace.innerHTML = 'остался'
+      break
+      case 22:
+      console.log(nextDate1 ) 
+      dayDay.innerHTML='дня'
+      break
+      case 25:
+      console.log(nextDate1) 
+      dayDay.innerHTML='дней'
+      break
+   default:
+   console.log(nextDate1)
+   dayDay.innerHTML='/////'
+
+  }
