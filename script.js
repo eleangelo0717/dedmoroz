@@ -6,7 +6,7 @@ let dayPlace = document.getElementById("day_place")
 
 
 function daysdoNY() {
-   year = '2020'
+   year = '2021'
    month = '01'
    day = '01'
    todayData = new Date()
